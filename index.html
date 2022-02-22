@@ -8,16 +8,18 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="mainWraper">
         <header>
         <div><a href="imageSearch.html">Grafika</a></div> <div><a href="advanceSearch.html">Szukanie zawansowane</a></div><div><img src="user.png" class="user" alt=""></div>
         </header>
         <main>
-            <div class="logo">Google</div>
+            <img class="logo" src="googlelogo.png" alt="">
             <form action="https://www.google.com/search">
-                <input type="text" name="q">
-                <input type="submit" value="Szukaj w Google">
-                <input type="submit" name="btnI" value="szczęśliwy traf">
+                <div class="searchWraper"><label for="search"><image src="loupe.svg" class="loupe"></label><input class="serach" id="search" type="text" name="q"></div>
+                <div class="buttons">
+                    <input type="submit" value="Szukaj w Google">
+                    <input type="submit" name="btnI" value="szczęśliwy traf">
+                </div>
             </form>
         </main>
         <footer>
