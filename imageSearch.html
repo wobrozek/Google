@@ -8,27 +8,47 @@
     <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
-    <div>
+    <div class="mainWraper">
         <header>
-            <div><a href="index.html">Wyszukiwarka</a></div> <div><a href="advanceSearch.html">Szukanie zaawansowane</a></div>
+        <div><a href="index.html">wyszukiwarka</a></div> <div><a href="advanceSearch.html">Szukanie zawansowane</a></div><div><img src="user.png" class="user" alt=""></div>
         </header>
         <main>
-            <div class="logo">Google</div> <div class="logo-sub">grafika</div> 
+            <div class="logoWraper">
+                <img class="logo" src="googlelogo_image.png" alt="">
+                <span class="graphics">Grafika</span>
+            </div>
             <form action="https://www.google.com/search">
-                <input type="text" name="q">
-                <input type="submit" value="Szukaj w Google">
+                <div class="searchWraper"><label for="search"><image src="loupe.svg" class="loupe"></label><input class="serach" id="search" type="text" name="q" data-ved="0ahUKEwi5oa3gpJT2AhViw4sKHUtoA_gQ39UDCAM"></div>
+                <div class="buttons">
+                    <div>  <!-- schowane atrybuty zmieniajace wyszukiwanie na wyszukiwanie grafiki  -->
+                        <input name="authuser" value="0" type="hidden">
+                        <input name="tbm" value="isch" type="hidden">
+                        <input name="hl" value="pl" type="hidden">
+                        <input name="source" type="hidden" value="hp">
+                        <input name="biw" type="hidden" value="1680">
+                        <input name="bih" type="hidden" value="907">
+                        <input value="91kVYvnJKOKGrwTL0I3ADw" name="ei" type="hidden">
+                        <input value="AHkkrS4AAAAAYhVoB9tQoXhnOTXpqg1mrrHQSQeqWeLY" name="iflsig" type="hidden">
+                    </div>
+                    <input type="submit" class="button" value="Szukaj w Google">
+                </div>
             </form>
         </main>
         <footer>
-            <div class="nationality">Polska</div>
+            <div class="nationality click">Polska</div>
             <div class="setings">
-                <div>O nas</div>
-                <div>Reklamuj się</div>
-                <div>Dla firm</div>
-                <div>jak działa wyszukiwarka</div>
-                <div>Prywatność</div>
-                <div>Warunki</div>
-                <div>Ustawienia</div>
+                <div class="flex">
+                    <div class="click">O nas</div>
+                    <div class="click">Reklamuj się</div>
+                    <div class="click">Dla firm</div>
+                    <div class="click">jak działa wyszukiwarka</div>
+                </div>
+                    <div class="center click">Neutralność węglowa od roku 2007</div>
+                    <div class="flex-end">
+                    <div class="click">Prywatność</div>
+                    <div class="click">Warunki</div>
+                    <div class="click">Ustawienia</div>
+                </div>
             </div>
         </footer>
     </div>

@@ -93,6 +93,19 @@ main {
 	margin-top: auto;
 }
 
+.logoWraper {
+	position: relative;
+	margin-top: auto;
+}
+
+.graphics {
+	color: #4487f6;
+	font: 16px/16px roboto-regular, arial, sans-serif;
+	position: absolute;
+	left: 215px;
+	bottom: 0;
+}
+
 .serach {
 	word-wrap: break-word;
 }
