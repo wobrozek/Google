@@ -80,7 +80,7 @@ footer {
 	padding: 15px;
 }
 
-main {
+.main {
 	display: flex;
 	flex-direction: column;
 	height: 50vh;
@@ -91,6 +91,12 @@ main {
 .logo {
 	display: block;
 	margin-top: auto;
+}
+
+.logoSmall {
+	height: 24px;
+	position: fixed;
+	left: 15px;
 }
 
 .logoWraper {
@@ -158,4 +164,50 @@ main {
 	display: flex;
 	justify-content: center;
 	color: #fff !important;
+}
+
+.advanced {
+	color: #f28b82;
+	padding: 25px 35px;
+	font-size: 20px;
+	border-bottom: 1px solid #3c4043;
+}
+
+.label {
+	min-width: 160px;
+	width: 16%;
+}
+
+form .serachMini {
+	min-width: 160px;
+	width: 50%;
+	border: 1px solid #5f6368;
+	height: 30px;
+}
+
+form .serachMini:focus-visible {
+	border: 1px solid #4d90fe;
+}
+
+.labelWraper {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	margin: 10px 35px;
+}
+
+.description {
+	font-size: 11px;
+	width: 32%;
+	min-width: 160px;
+}
+
+.bigFont {
+	font-size: 20px;
+	font-weight: bold;
+	color: #fff;
+}
+
+form div .noBorder {
+	border-width: 0;
 }
