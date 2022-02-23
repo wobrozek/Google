@@ -4,6 +4,7 @@ body {
 	color: #bdc1c6;
 	margin: 0;
 	padding: 0;
+	box-sizing: border-box;
 }
 
 header {
@@ -180,6 +181,8 @@ form .serachMini {
 	width: 50%;
 	border: 1px solid #5f6368;
 	height: 30px;
+	margin: 0;
+	box-sizing: border-box;
 }
 
 form .serachMini:focus-visible {
@@ -195,6 +198,7 @@ form .searchSuperMini {
 	font-size: 11px;
 	width: 32%;
 	min-width: 160px;
+	margin-left: 15px;
 }
 
 .bigFont {
@@ -219,6 +223,7 @@ form .superMiniWraper {
 	border: 1px solid #8ab4f8;
 	color: #202124;
 	padding: 5px 10px;
+	margin-top: 30px;
 }
 .blueWraper {
 	width: 50%;
@@ -242,4 +247,8 @@ form .superMiniWraper {
 	justify-content: left;
 	align-items: center;
 	margin: 10px 0;
+}
+
+.margin {
+	margin: 0 15px;
 }
