@@ -3,6 +3,7 @@ body {
 	font-family: arial, sans-serif;
 	color: #bdc1c6;
 	margin: 0;
+	padding: 0;
 }
 
 header {
@@ -112,10 +113,6 @@ footer {
 	bottom: 0;
 }
 
-.serach {
-	word-wrap: break-word;
-}
-
 .loupe {
 	height: 15px;
 	width: 15px;
@@ -189,6 +186,11 @@ form .serachMini:focus-visible {
 	border: 1px solid #4d90fe;
 }
 
+form .searchSuperMini {
+	min-width: 80px;
+	width: 50%;
+}
+
 .labelWraper {
 	display: flex;
 	justify-content: left;
@@ -210,4 +212,27 @@ form .serachMini:focus-visible {
 
 form div .noBorder {
 	border-width: 0;
+}
+
+form .superMiniWraper {
+	min-width: 160px;
+	width: 50%;
+	display: flex;
+	align-items: center;
+}
+
+.buttonBlue {
+	background: #8ab4f8;
+	border: 1px solid #8ab4f8;
+	color: #202124;
+	padding: 5px 10px;
+}
+
+.buttonBlue:hover {
+	background: #aecbfa;
+}
+
+form {
+	border-bottom: 1px solid #3c4043;
+	padding: 50px 0 20px 0;
 }

@@ -34,32 +34,37 @@
                 </div>
                 <div class="labelWraper">
                     <div class="label">
-                        <label for="input">dokładnie to wyrażenie</label>
+                        <label for="input2">dokładnie to wyrażenie</label>
                     </div>
-                    <input  class="serach serachMini"type="name" name="as_epq" id="input">
+                    <input  class="serach serachMini"type="name" name="as_epq" id="input2">
                     <div class="description">Wpisz wyrażenie w cudzysłowach: "chart polski"</div>
                 </div>
                 <div class="labelWraper">
                     <div class="label">
-                        <label for="input">Dowolne z tych słów</label>
-                    </div><input class="serach serachMini" type="name" name="as_oq" id="input">
+                        <label for="input3">Dowolne z tych słów</label>
+                    </div><input class="serach serachMini" type="name" name="as_oq" id="input3">
                     <div class="description">Wstaw OR między wpisane słowa: miniaturowy OR zwykły</div>
                 </div>
                 <div class="labelWraper">
                     <div class="label">
-                        <label for="input">żadne z tych słów</label>
-                    </div><input class="serach serachMini" type="name" name="as_eq" id="input">
+                        <label for="input4">żadne z tych słów</label>
+                    </div>
+                    <input class="serach serachMini" type="name" name="as_eq" id="input4">
                     <div class="description">Umieść znak minus przed niepożądanymi słowami: -gryzonie, -"terier"
                     </div>
                 </div>
                 <div class="labelWraper">
                     <div class="label">
-                        <label for="input">liczby z zakresu</label>
-                    </div><input  type="name" name="as_nlo"id="input">
-                    <label for="input">do</label><input type="name" name="as_nhi"id="input">
+                        <label for="input5">liczby z zakresu</label>
+                    </div>
+                    <div class="superMiniWraper">
+                        <input class="serach serachMini searchSuperMini" type="name" name="as_nlo"id="input5">
+                        <label for="input6">do</label>
+                        <input class="serach serachMini searchSuperMini" type="name" name="as_nhi"id="input6">
+                    </div>
                     <div class="description">Umieść dwie kropki między liczbami i dodaj jednostkę miary: 10..35 kg, 300..500 PLN, 2010..2011</div>
                 </div>
-                <input type="submit" value="Wyszykiwanie zawansowane">
+                <input class="buttonBlue" type="submit" value="Wyszykiwanie zawansowane">
             </form>
         </main>
         <footer>
@@ -77,3 +82,5 @@
     </div>
 </body>
 </html>
+
+<!-- todo: id do labeli -->
