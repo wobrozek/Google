@@ -191,13 +191,6 @@ form .searchSuperMini {
 	width: 50%;
 }
 
-.labelWraper {
-	display: flex;
-	justify-content: left;
-	align-items: center;
-	margin: 10px 35px;
-}
-
 .description {
 	font-size: 11px;
 	width: 32%;
@@ -227,12 +220,26 @@ form .superMiniWraper {
 	color: #202124;
 	padding: 5px 10px;
 }
+.blueWraper {
+	width: 50%;
+	display: flex;
+	justify-content: right;
+}
 
 .buttonBlue:hover {
 	background: #aecbfa;
 }
 
-form {
+.formAdvanced {
 	border-bottom: 1px solid #3c4043;
 	padding: 50px 0 20px 0;
+	width: 70%;
+	margin-left: 35px;
+}
+
+.labelWraper {
+	display: flex;
+	justify-content: left;
+	align-items: center;
+	margin: 10px 0;
 }
